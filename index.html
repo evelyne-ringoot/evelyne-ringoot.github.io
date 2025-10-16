@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Evelyne Ringoot - Research website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Evelyne Ringoot</a></h1>
+					</header>
+
+
+				<!-- Banner -->
+					<section id="banner">
+							<div class="inner">
+						<h2>Evelyne Ringoot</h2>
+						<p>GPU and HPC performance for large-scale linear algebra</p>
+
+								<div class="container">
+					<div class="row gtr-150">
+						<div class="col-7 col-12-medium">
+							
+							<div class><p2>We make GPU-accelerated large-scale linear algebra fast, easy and portable. I am a PhD candidate at MIT Mathematics and Computational Science advised by professor Alan Edelman in the JuliaLab.
+								I optimize agnostic GPU kernels for singular value decomposition for performance beyond vendor-optimized libraries, for laptop GPUs and HPC multicore hardware.
+								<br>
+			<br></p2></div>
+								<ul class="actions">
+			
+						<li><a href="./images/resume.pdf" class="button scrolly"> Resume </a></li>
+						<li><a href="https://scholar.google.com/citations?user=53yhft4AAAAJ&hl=en&oi=ao" class="button scrolly primary" target='_blank'> Publications </a></li>
+						<li><a href="https://www.linkedin.com/in/evelyne-ringoot/" class="button scrolly" target='_blank'> Linkedin </a></li>
+					</ul>
+								
+						</div>
+						<div class="col-5 col-12-medium imp-medium">
+							<span class="image fit"><img src="images/cse_presentation2.jpg" alt="" /></span>
+						</div>
+
+					
+					</div>
+				</div>
+							
+							</div>
+						
+						
+						
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<span class="image fit"><img src="images/slateplasmagbbrd.png.png" alt="" /></span>
+									<div class="content">
+										<h2 class="major">Bidiagonalization of banded matrices</h2>
+										<p> In the past, bidiagonalization through bulge-chasing was believed to be a CPU-only algorithm since it is memory bound. 
+											Not anymore. Low-level GPU memory has increased and we present the first GPU algorithm for reducing a banded matrix to bidiagonal form, ouperforming HPC libraries PLASMA and SLATE by orders of magnitude. </p>
+										<a href="https://arxiv.org/abs/2510.12705" class="special">Read more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<span class="image"><img src="images/cusolroc.png"  alt="" /></span>
+									<div class="content">
+										<h2 class="major">Unified GPU Kernels for the SVD</h2>
+										<p>High-level level HPC libraries typically rely on low-level hardware-optimized functions. 
+											We show that the performance of hardware-specialized functions can be matched or exceeded using abstract functions, through hyperparemeter optimization by data precision and hardware. </p>
+										<a href="https://arxiv.org/abs/2508.06339" class="special">Read more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/wamta.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Unified Recursive TRMM and TRSM</h2>
+										<p>A single high-level recursive implementation of  triangular matrix-matrix multiplication (TRMM) and triangular solve (TRSM) for all hardware and data types that leverages more general matrix-matrix multiplications (GEMM) through recursions, achieves performance in line with hardware-optimized functions.</p>
+										<a href="https://arxiv.org/abs/2504.13821" class="special">Read more</a>
+									</div>
+								</div>
+							</section>
+
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							
+							<ul class="copyright">
+								<li>&copy; Evelyne Ringoot. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
